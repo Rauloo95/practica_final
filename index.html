@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html class="html" lang="en">
+<head class="head">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica Gestor</title>
+ 
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body class="body">
+    <header>
+        <img src="img/istockphoto-1479759169-612x612.jpg" class="img1">
+         <img src="img/webinar-dosdonts.png" class="img2" alt="">
+    <h1 class="h1">Interfaz de Usuario</h1>
+   
+    </header>
+
+    
+
+    
+    
+    <form id="formulario" action="index.html" method="post">
+        <h3 class="h3">Rellena todos los campos porfavor: </h3>
+        <label for="nombre">Nombre del recurso</label>
+        <input type="text" id="nombre" name="nombre" placeholder="type here..." required><br><br>
+        <label for="categoria">Categoria</label>
+        <input type="text" id="categoria" name="categoria" placeholder="type here..." required><br><br>
+        <label for="prioridad">Prioridad</label>
+        <select id="prioridad" name="prioridad" required>
+        <option value="baja">Baja</option>
+        <option value="media">Media</option>
+        <option value="alta">Alta</option>
+        </select><br><br>
+
+        <input class="boton" type="submit" value="Agregar Recurso">
+
+        <input class="boton" type="reset" value="Limpiar Campos">
+    </form>
+
+       
+    <h2 class="h2">Recursos Agregados</h2>
+        <ul id="recursos-lista">
+        </ul>
+        
+</body>
+<footer class="footer">
+    <p class="p">Practica Gestor de Recursos</p>
+    <p class="p">Desarrollado por Raúl Gómez</p>
+    <p class="p">Fecha: <span id="fecha"></span></p>
+    <p class="p">Versión: 1.0</p>
+   
+        <p class="referencia">Link de referencia: <a href="https://rockcontent.com/es/blog/interfaz-de-usuario/" class="link1" target="_blank">Interfaz de Usuario</a></p>
+   
+    
+    <img src="img/hardware.jpg" class="img3" alt="No sale la imagen porque no eres el elegido">
+  
+    
+</footer >
+
+
+<script src="main.js"></script>
+
+</html>

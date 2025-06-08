@@ -1,0 +1,176 @@
+html{
+    background-color: black;
+    padding: 10px;
+}
+
+
+header {
+    background-color:greenyellow;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+#recursos-lista{
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: double;
+}
+
+#formulario {
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: grey
+}
+
+
+
+#nombre {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    border-radius: 5px;
+}
+#categoria{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    border-radius: 5px;
+}
+
+#prioridad{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    border-radius: 5px;
+}
+.boton{
+    margin: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    border-radius: 5px;
+    background-color: #4CAF50;
+}
+:hover.boton{
+    background-color: blueviolet;
+}
+
+h1 {
+   font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+    padding: 5px;
+    background-color: black;
+    text-align: center;
+
+}
+h2{
+   font-family: 'Bebas Neue', sans-serif;
+    color:black;
+    font-size: 25px;
+    padding: 5px;
+    background-color:greenyellow;
+    text-align: left;
+}
+
+.p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:blue;
+    font-size: 13px;
+   margin: 5px;;
+    text-align: left;
+    ;
+}
+.img1{
+    float: left;
+    width: 150px;
+    border-radius: 50%;
+    
+    
+  
+}
+
+
+
+.img1{
+    float: left;
+    width: 150px;
+    border-radius: 50%;
+    
+}
+.img2{
+    float: right;
+   width: 150px;
+    border-radius: 50%;
+  
+    
+}
+.img3{
+    float: left;
+   width: 200px;
+    border-radius: 25%;
+   margin: 5px;  
+}
+.referencia{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: greenyellow;
+    font-size: 13px;
+   margin: 5px;;
+    text-align: left;
+    ;
+}
+
+.link1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: greenyellow;
+    font-size: 13px;
+   margin: 5px;;
+    text-align: left;
+    ;
+}
+:hover.link1{
+    color: blueviolet;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    
+}
+
+@media screen and (max-width: 600px) {
+    header {
+       font-size: 1.5rem;
+    }
+    h1 {
+        font-size: 5vw;
+    }
+    h2 {
+        font-size: 4vw;
+    }
+    .p {
+        font-size: 3.5vw;
+    }
+    .img1, .img2, .img3 {
+        height: 70px;
+        width: 70px
+    }
+    #formulario {
+        font-size: 10px;
+    }
+    #recursos-lista{
+        font-size: 15px;
+    }
+    .boton{
+        font-size: 10px;
+        padding: 5px;
+    }
+    .referencia.link1{
+       font-size: 4vw;
+    }
+    
+}
